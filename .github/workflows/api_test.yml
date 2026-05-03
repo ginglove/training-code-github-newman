@@ -27,7 +27,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: mkdir postman_reports
     - run: npm install newman newman-reporter-htmlextra
-    - run: newman
+    - run: newman run ./Library_Management_API_Student_Monitor_test.postman_collection.json -e ./test_environment.json -r cli,htmlextra --reporter-htmlextra-export ./postman_reports 
     - name: Upload report to git
       uses: actions/upload-artifact@v7
       with:
