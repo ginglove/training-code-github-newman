@@ -22,7 +22,7 @@
 		},
 		{
 			"key": "base_url",
-			"value": "",
+			"value": "https://itlearn.edu.vn/api",
 			"type": "default",
 			"enabled": true
 		}
