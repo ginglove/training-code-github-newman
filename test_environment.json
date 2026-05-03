@@ -1,0 +1,34 @@
+{
+	"id": "77bbfa94-af90-424e-81d3-3d569f2decea",
+	"name": "Test",
+	"values": [
+		{
+			"key": "token",
+			"value": "",
+			"type": "any",
+			"enabled": false
+		},
+		{
+			"key": "domain",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "mock_server",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "base_url",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"color": null,
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2026-05-03T16:20:01.241Z",
+	"_postman_exported_using": "Postman/12.8.4"
+}
